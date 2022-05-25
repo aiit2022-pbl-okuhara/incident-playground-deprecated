@@ -57,18 +57,8 @@ $ docker exec -it incident-playground-db bin/bash
 Container...
 $ psql -U postgres
 
+List of databases...
 postgres=# \l
-                                                    データベース一覧
-              名前               |  所有者  | エンコーディング |  照合順序   | Ctype(変換演算子) |     アクセス権限      
----------------------------------+----------+------------------+-------------+-------------------+-----------------------
- incident_playground_development | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | 
- incident_playground_production  | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | 
- incident_playground_test        | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | 
- postgres                        | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | 
- template0                       | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | =c/postgres          +
-                                 |          |                  |             |                   | postgres=CTc/postgres
- template1                       | postgres | UTF8             | ja_JP.UTF-8 | ja_JP.UTF-8       | =c/postgres          +
-                                 |          |                  |             |                   | postgres=CTc/postgres
 ```
 
 ## Not Required
